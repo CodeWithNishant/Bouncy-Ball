@@ -1,8 +1,8 @@
-import * as THREE from "./node_modules/three";
-import { OrbitControls } from "./node_modules/three/examples/jsm/controls/OrbitControls.js";
-import { TextGeometry } from "./node_modules/three/examples/jsm/geometries/TextGeometry.js";
-import { FontLoader } from "./node_modules/three/examples/jsm/loaders/FontLoader.js";
-import * as CANNON from "./node_modules/cannon-es";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry.js";
+import { FontLoader } from "three/examples/jsm/loaders/FontLoader.js";
+import * as CANNON from "cannon-es";
 
 // ------------------------------------ Basic Setup for renderer and camera -------------------------------------
 

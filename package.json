@@ -8,17 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "server": "vite preview",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "three": "^0.137.5",
-    "cannon-es": "^0.18.0"
-  },
-
   "devDependencies": {
     "cannon-es": "^0.20.0",
     "gh-pages": "^6.1.1",

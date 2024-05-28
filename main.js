@@ -192,25 +192,24 @@ function showGlobalText() {
         "                                      Control : Arrow Keys",
       {
         font: loadedFont,
-        size: 0.7, // Smaller size
-        height: 0.1, // Adjusted height
+        size: 0.7, 
+        height: 0.1, 
         curveSegments: 12,
         bevelEnabled: true,
-        bevelThickness: 0.02, // Reduced thickness
-        bevelSize: 0.01, // Reduced bevel size
+        bevelThickness: 0.02, 
+        bevelSize: 0.01, 
         bevelOffset: 0,
-        bevelSegments: 3, // Fewer segments for less obvious bevel
+        bevelSegments: 3, 
       }
     );
 
-    const globalTextMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff }); // White color for visibility
+    const globalTextMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff }); 
     const globalTextMesh = new THREE.Mesh(
       globalTextGeometry,
       globalTextMaterial
     );
     scene.add(globalTextMesh);
 
-    // Position in the bottom corner, less conspicuous
     globalTextMesh.position.set(-34, -19, 0);
 
     showingGlobalText = true;
@@ -312,7 +311,7 @@ function animate() {
     cameraAngle += 0.01; // Speed of the camera movement
     camera.position.x = 30 * Math.cos(cameraAngle);
     camera.position.z = 30 * Math.sin(cameraAngle);
-    camera.lookAt(new THREE.Vector3(-15, 5, 0)); // Point the camera at the game over text
+    camera.lookAt(new THREE.Vector3(-15, 5, 0)); 
   } else {
     orbit.update(); // Allow regular orbit controls if the game is not over
   }

@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/Bouncy-Ball/",
+  base: "./",
   build: {
     outDir: "dist",
   },

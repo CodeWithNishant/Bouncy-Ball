@@ -1,4 +1,5 @@
 # Note! Important -> The main branch is experimental and full of bugs and errors, if you want a stable version go for the Version1 branch.
+Access the laggy Github Pages version here -> 
 
 # About 
 Bouncy-Ball or Bouncy-Crazy-Ball is a javaScript Game (Interactive 3D Website) made using Three.js and Cannon.js.

@@ -203,14 +203,13 @@ function showGlobalText() {
       }
     );
 
-    const globalTextMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff }); // White color for visibility
+    const globalTextMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff }); 
     const globalTextMesh = new THREE.Mesh(
       globalTextGeometry,
       globalTextMaterial
     );
     scene.add(globalTextMesh);
 
-    // Position in the bottom corner, less conspicuous
     globalTextMesh.position.set(-34, -19, 0);
 
     showingGlobalText = true;
@@ -312,7 +311,7 @@ function animate() {
     cameraAngle += 0.01; // Speed of the camera movement
     camera.position.x = 30 * Math.cos(cameraAngle);
     camera.position.z = 30 * Math.sin(cameraAngle);
-    camera.lookAt(new THREE.Vector3(-15, 5, 0)); // Point the camera at the game over text
+    camera.lookAt(new THREE.Vector3(-15, 5, 0)); 
   } else {
     orbit.update(); // Allow regular orbit controls if the game is not over
   }

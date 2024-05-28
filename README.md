@@ -1,7 +1,7 @@
 # Note! Important -> The main branch is experimental and full of bugs and errors, if you want a stable version go for the Version1 branch.
 
 # About 
-Bouncy-Ball or Bouncy-Crazy-Ball is a javaScript Game (Dynamic 3D Website) made using Three.js and Cannon.js.
+Bouncy-Ball or Bouncy-Crazy-Ball is a javaScript Game (Interactive 3D Website) made using Three.js and Cannon.js.
 
 # Libraries and frameworks
 ## Three.js

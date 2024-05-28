@@ -2,10 +2,13 @@
 Bouncy-Ball or Bouncy-Crazy-Ball is a javaScript Game (Dynamic 3D Website) made using Three.js and Cannon.js.
 
 # Libraries and frameworks
+## Three.js
 Three.js is a  JavaScript library used to create and display animated 3D computer graphics in a web browser using WebGL.
-
+## Cannon.js
 Cannon.js is an open source JavaScript 3D physics engine created by Stefan "schteppe" Hedman. 
 Unlike physics engine libraries ported from C++ to JavaScript, cannon.js is written in JavaScript from the start and can take advantage of its features. 
+## Vite
+Vite is a modern build tool and development server for web projects, designed to provide a faster and more efficient workflow for modern front-end development.
 
 # Screenshots
 ## Main Page

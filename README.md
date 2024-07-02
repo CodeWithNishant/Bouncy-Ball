@@ -2,7 +2,7 @@
 Access the laggy Github Pages version here -> https://codewithnishant.github.io/Bouncy-Ball/
 
 # About 
-Bouncy-Ball or Bouncy-Crazy-Ball is a javaScript Game (Interactive 3D Website) made using Three.js and Cannon.js.
+Bouncy-Ball or Bouncy-Creepy-Ball is a javaScript Game (Interactive 3D Website) made using Three.js and Cannon.js.
 
 # Libraries and frameworks
 ## Three.js
